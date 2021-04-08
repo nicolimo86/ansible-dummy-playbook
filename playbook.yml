@@ -1,0 +1,6 @@
+---
+- name: "dummy playbook"
+  hosts: default
+  gather_facts: true
+  roles:
+    - ansible-dummy-role
